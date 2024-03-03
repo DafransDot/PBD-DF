@@ -117,22 +117,26 @@
             android:textColor="@color/black"/>
     </RadioGroup>
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:padding="20dp"/>
     <Button
         android:id="@+id/btnTotal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="totalkan"
         android:textColor="@color/black"
+
          />
+
+    <TextView
+        android:id="@+id/tvBon"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:textColor="@color/black"
+        />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:paddingTop="30dp"
+        android:paddingTop="10dp"
         android:textColor="@color/black"
         android:text="Selalu Berjaga baik dari fisik maupun hati, tetap semangat semua dan lakukan sesuai SOP"
         android:textAlignment="center"
