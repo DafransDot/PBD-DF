@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="71dp"
+            android:layout_height="75dp"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/tvKeymarticon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="20dp"
+            android:text="Keymart"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            tools:ignore="MissingConstraints" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="بِسْمِ اللَّهِ الرحمن الرَّحِيم"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:padding="20dp"
+        android:textColor="@color/black"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:paddingBottom="15dp"
+        android:text="Selamat datang di Keymart, awali hari mu dengan membaca doa dan diakhiri dengan alhamdulillah" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:text="Input Barang (kode barang)"
+        android:textSize="15dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+        android:id="@+id/etinput"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text=""
+            android:textColor="@color/black"
+        />
+        <Button
+            android:id="@+id/btnInput"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="input"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"/>
+
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="20dp"
+        android:checkedButton="@id/rbNoMembership">
+
+        <RadioButton
+            android:id="@+id/rbmembership"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Membership"
+            android:textColor="@color/black"/>
+
+        <RadioButton
+            android:id="@+id/rbNoMembership"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bukan Membership"
+            android:textColor="@color/black"/>
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"/>
+    <Button
+        android:id="@+id/btnTotal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="totalkan"
+        android:textColor="@color/black"
+         />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="30dp"
+        android:textColor="@color/black"
+        android:text="Selalu Berjaga baik dari fisik maupun hati, tetap semangat semua dan lakukan sesuai SOP"
+        android:textAlignment="center"
+        android:textSize="15dp" />
+
+
+</LinearLayout>
